@@ -1,6 +1,6 @@
 import React from 'react';
 
-export class Feedback extends React.Component {
+export class Form extends React.Component {
   constructor(){
     super();
     this.state = {
