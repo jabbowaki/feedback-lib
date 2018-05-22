@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { Feedback } from './feedback.js'
+import { Form } from './form.js'
 
 class App extends Component {
   render() {
@@ -14,7 +14,7 @@ class App extends Component {
         <p className="App-intro">
           A friendly tool to help you come up with your feedback!
         </p>
-        <Feedback />
+        <Form />
       </div>
     );
   }
